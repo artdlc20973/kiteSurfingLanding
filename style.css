@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleyway&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1565087424273-1c34e1f9d741?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.logo {
+  color: #00ffdd;
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  color: #00ffdd;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.nav li a:hover {
+  color: #a6ff00;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 300px auto;
+}
+
+h1 {
+  color: #00ffdd;
+  margin: 1em;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: lighter;
+}
+
+p {
+  margin: 1.4em 4em;
+  padding-bottom: 2em;
+  color: #a6ff00;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+button {
+  background: #00ffdd4d;
+  font-size: 1.4em;
+  padding: 12px 45px;
+  border: none;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #fff;
+  transition: all .5s ease-in;
+}
+
+button:hover {
+  background: #a6ff0059;
+  transform: translateY(9px);
+  letter-spacing: 5px;
+  border-radius: 25px;
+}
